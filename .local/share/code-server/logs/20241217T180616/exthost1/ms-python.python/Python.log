@@ -1,0 +1,12 @@
+2024-12-17 18:06:28.490 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 18:06:28.490 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 18:06:28.490 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 18:06:28.490 [info] Test server listening.
+2024-12-17 18:06:28.491 [info] Python interpreter path: /bin/python3
+2024-12-17 18:06:29.832 [info] Starting Jedi language server for jovyan.
+2024-12-17 22:17:36.625 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 22:17:36.626 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 22:17:36.626 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 22:17:36.683 [info] Test server listening.
+2024-12-17 22:17:36.684 [info] Python interpreter path: /bin/python3
+2024-12-17 22:17:37.972 [info] Starting Jedi language server for jovyan.

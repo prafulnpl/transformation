@@ -1,0 +1,2 @@
+SELECT *
+FROM {{ source('bronze_raw', 'airbyte_raw_studentmain') }}

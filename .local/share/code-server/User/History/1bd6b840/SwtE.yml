@@ -1,0 +1,40 @@
+trino_project:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      host: 10.2.0.4            # Kubernetes Node IP
+      port: 32750               # NodePort for Trino service
+      user: admin               # Trino username
+      password: ''              # Leave blank if no password
+      schema: default_silver           # Schema in Trino
+      catalog: ICEBERG             # Hive catalog pointing to MinIO
+      threads: 1
+      ssl: false
+
+Internal:
+  outputs:
+
+    dev:
+      type: trino
+      method: none  # optional, one of {none | ldap | kerberos}
+      user: [dev_user]
+      password: [password]  # required if method is ldap or kerberos
+      database: [database name]
+      host: [hostname]
+      port: [port number]
+      schema: [dev_schema]
+      threads: [1 or more]
+
+    prod:
+      type: trino
+      method: none  # optional, one of {none | ldap | kerberos}
+      user: [prod_user]
+      password: [prod_password]  # required if method is ldap or kerberos
+      database: [database name]
+      host: [hostname]
+      port: [port number]
+      schema: [prod_schema]
+      threads: [1 or more]
+
+  target: dev

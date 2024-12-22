@@ -1,0 +1,28 @@
+2024-12-18 10:21:56.150 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-18 10:21:56.150 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-18 10:21:56.150 [info] Experiment 'pythonTestAdapter' is active
+2024-12-18 10:21:56.362 [info] Test server listening.
+2024-12-18 10:21:56.364 [info] Python interpreter path: /opt/conda/bin/python
+2024-12-18 10:21:57.188 [info] > conda info --json
+2024-12-18 10:21:57.188 [info] shell: bash
+2024-12-18 10:21:57.960 [info] Starting Jedi language server for jovyan.
+2024-12-18 10:21:58.016 [info] > conda info --json
+2024-12-18 10:21:58.159 [info] > conda run -n base --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-18 10:21:58.159 [info] shell: bash
+2024-12-18 10:21:59.271 [info] > /bin/python3 ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-18 10:21:59.272 [info] shell: bash
+2024-12-18 10:23:59.749 [info] > conda info --json
+2024-12-18 10:23:59.774 [info] > conda run -n base --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-18 10:23:59.774 [info] shell: bash
+2024-12-18 10:23:59.811 [info] Found: /bin/python3 --> /bin/python3.10
+2024-12-18 10:23:59.868 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-12-18 10:23:59.885 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-12-18 10:23:59.885 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-12-18 10:23:59.953 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2024-12-18 10:23:59.954 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2024-12-18 10:23:59.954 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2024-12-18 10:23:59.954 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2024-12-18 10:23:59.985 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-18 10:24:00.049 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-18 10:24:00.688 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-18 10:25:08.689 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py

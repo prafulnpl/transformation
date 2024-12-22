@@ -1,0 +1,16 @@
+2024-12-17 14:27:27.743 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 14:27:27.743 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 14:27:27.743 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 14:27:28.067 [info] Test server listening.
+2024-12-17 14:27:28.068 [info] Python interpreter path: /opt/conda/bin/python
+2024-12-17 14:27:29.023 [info] > conda info --json
+2024-12-17 14:27:29.023 [info] shell: bash
+2024-12-17 14:27:30.262 [info] Starting Jedi language server for jovyan.
+2024-12-17 14:27:30.332 [info] > conda run -n base --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-17 14:27:30.332 [info] shell: bash
+2024-12-17 14:27:30.521 [info] > conda info --json
+2024-12-17 14:27:31.727 [info] > /bin/python3 ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-17 14:27:31.727 [info] shell: bash
+2024-12-17 14:37:56.187 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt-utils-1.0.0/pytest.ini
+2024-12-17 14:38:56.179 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt_utils/pytest.ini
+2024-12-17 14:40:56.214 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt_utils/pytest.ini

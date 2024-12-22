@@ -1,0 +1,13 @@
+2024-12-17 13:54:10.815 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/home/jovyan/Internal/dbt_project.yml","path":"/home/jovyan/Internal/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/dbt_project.yml","path":"/home/jovyan/my_dbt_project/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/InternalAcademy/dbt_project.yml","path":"/home/jovyan/my_dbt_project/InternalAcademy/dbt_project.yml","scheme":"file"}]]
+2024-12-17 13:54:10.816 [info] discoverProjects:allowListFolders [[]]
+2024-12-17 13:54:10.816 [info] discoverProjects:foundProjectsAfterFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project","path":"/home/jovyan/my_dbt_project","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/InternalAcademy","path":"/home/jovyan/my_dbt_project/InternalAcademy","scheme":"file"}]]
+2024-12-17 13:54:11.040 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","external":"file:///home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project","external":"file:///home/jovyan/my_dbt_project","path":"/home/jovyan/my_dbt_project","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/InternalAcademy","external":"file:///home/jovyan/my_dbt_project/InternalAcademy","path":"/home/jovyan/my_dbt_project/InternalAcademy","scheme":"file"}]]
+2024-12-17 13:54:11.070 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:54:11.076 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:54:11.095 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:54:22.380 [info] /bin/python3: No module named pip
+ []
+2024-12-17 13:54:22.383 [info]  []
+2024-12-17 13:54:33.296 [info] /bin/python3: No module named pip
+ []
+2024-12-17 13:54:33.299 [info]  []

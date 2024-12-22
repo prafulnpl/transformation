@@ -1,0 +1,18 @@
+code-server (1.82.2, dlytica-academy-work-vm.eastus.cloudapp.azure.com:31997, server-distro)
+Jupyter Extension Version: 2023.7.100.
+Python Extension Version: 2023.18.0.
+Platform: linux (x64).
+Workspace folder /opt/conda/lib/python3.11/site-packages, Home = /home/jovyan
+10:01:09.303 [info] User belongs to experiment group 'NewJupyterSession'
+10:01:09.770 [info] Start refreshing Interpreter Kernel Picker (1734516069770)
+10:01:09.788 [info] Using Pylance
+10:01:09.817 [info] Process Execution: /jupyter notebook --version
+10:01:09.835 [info] Process Execution: /jupyter lab --version
+10:01:10.657 [warn] Failed to get activated env vars for /bin/python3 in 721ms
+10:01:10.676 [info] Process Execution: /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+10:01:10.710 [info] Process Execution: /bin/python3 -m pip list
+10:01:10.781 [info] Process Execution: /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+10:01:12.205 [info] End refreshing Interpreter Kernel Picker (1734516069770)
+10:02:18.284 [info] Disposing HostJupyterExecution
+10:02:18.284 [info] Shutting down notebooks for b64a6f55-d287-42f7-8a55-3bc576ef739d
+10:02:18.285 [info] Disposing HostJupyterExecution

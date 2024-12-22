@@ -1,0 +1,24 @@
+2024-12-17 14:35:45.833 [info] Expanding terminal instance, old id -b0fa7f7-1 -> new id undefined
+2024-12-17 14:35:51.305 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-12-17 14:35:51.305 [info] Persistent process reconnection "1"
+2024-12-17 14:35:51.587 [info] Persistent process "1": Replaying 1484 chars and 1 size events
+2024-12-17 16:29:32.812 [info] Expanding terminal instance, old id -b0fa7f7-1 -> new id undefined
+2024-12-17 16:29:32.816 [info] Expanding terminal instance, old id -b0fa7f7-2 -> new id undefined
+2024-12-17 16:29:38.220 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-12-17 16:29:38.220 [info] Persistent process reconnection "2"
+2024-12-17 16:29:38.490 [info] Persistent process "2": Replaying 6491 chars and 1 size events
+2024-12-17 16:29:38.742 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-12-17 16:29:38.742 [info] Persistent process reconnection "1"
+2024-12-17 16:29:39.003 [info] Persistent process "1": Replaying 3124 chars and 1 size events
+2024-12-17 16:53:27.723 [info] Expanding terminal instance, old id -b0fa7f7-1 -> new id undefined
+2024-12-17 16:53:27.723 [info] Expanding terminal instance, old id -b0fa7f7-2 -> new id undefined
+2024-12-17 16:53:27.724 [info] Expanding terminal instance, old id -b0fa7f7-3 -> new id undefined
+2024-12-17 16:53:33.054 [warning] Persistent process "3": Process had no disconnect runners but was an orphan
+2024-12-17 16:53:33.054 [info] Persistent process reconnection "3"
+2024-12-17 16:53:33.125 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-12-17 16:53:33.125 [info] Persistent process reconnection "1"
+2024-12-17 16:53:33.126 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-12-17 16:53:33.126 [info] Persistent process reconnection "2"
+2024-12-17 16:53:33.318 [info] Persistent process "3": Replaying 8391 chars and 1 size events
+2024-12-17 16:53:33.388 [info] Persistent process "1": Replaying 3124 chars and 1 size events
+2024-12-17 16:53:33.395 [info] Persistent process "2": Replaying 7199 chars and 1 size events

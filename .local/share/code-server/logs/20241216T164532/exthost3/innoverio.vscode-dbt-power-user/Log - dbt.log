@@ -1,0 +1,64 @@
+2024-12-17 13:54:12.751 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/home/jovyan/Internal/dbt_project.yml","path":"/home/jovyan/Internal/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/dbt_project.yml","path":"/home/jovyan/my_dbt_project/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/InternalAcademy/dbt_project.yml","path":"/home/jovyan/my_dbt_project/InternalAcademy/dbt_project.yml","scheme":"file"}]]
+2024-12-17 13:54:12.751 [info] discoverProjects:allowListFolders [[]]
+2024-12-17 13:54:12.751 [info] discoverProjects:foundProjectsAfterFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project","path":"/home/jovyan/my_dbt_project","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/InternalAcademy","path":"/home/jovyan/my_dbt_project/InternalAcademy","scheme":"file"}]]
+2024-12-17 13:54:12.898 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","external":"file:///home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project","external":"file:///home/jovyan/my_dbt_project","path":"/home/jovyan/my_dbt_project","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project/InternalAcademy","external":"file:///home/jovyan/my_dbt_project/InternalAcademy","path":"/home/jovyan/my_dbt_project/InternalAcademy","scheme":"file"}]]
+2024-12-17 13:54:12.953 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:54:12.957 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:54:12.988 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:58:09.750 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:58:09.754 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 13:58:34.093 [error] dbtCore:executeSQL:Error while executing sql: 
+  
+  SELECT 
+    s.STUDENTID, 
+    sm.FIRSTNAME, 
+    sm.LASTNAME
+FROM 
+    default.airbyte_raw_studentdetail as s
+LEFT JOIN 
+    default.airbyte_raw_studentmain as sm
+    ON STUDENTID = STUDENTID 
+LIMIT 5
+
+
+  
+  limit 500
+:Database Error
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 17:3: mismatched input 'limit'. Expecting: <EOF>", query_id=20241217_135834_00166_d8x8s) []
+2024-12-17 13:58:34.097 [error] dbtCore:executeSQL:Error while executing sql: 
+  
+  SELECT 
+    s.STUDENTID, 
+    sm.FIRSTNAME, 
+    sm.LASTNAME
+FROM 
+    default.airbyte_raw_studentdetail as s
+LEFT JOIN 
+    default.airbyte_raw_studentmain as sm
+    ON STUDENTID = STUDENTID 
+LIMIT 5
+
+
+  
+  limit 500
+:Database Error
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 17:3: mismatched input 'limit'. Expecting: <EOF>", query_id=20241217_135834_00167_d8x8s) []
+2024-12-17 13:58:59.839 [error] dbtCore:executeSQL:Error while executing sql: 
+  
+  
+
+
+SELECT 
+*
+FROM 
+    default.airbyte_raw_studentdetail as s
+LEFT JOIN 
+    default.airbyte_raw_studentmain as sm
+    ON STUDENTID = STUDENTID 
+LIMIT 5
+
+
+  
+  limit 500
+:Database Error
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 18:3: mismatched input 'limit'. Expecting: <EOF>", query_id=20241217_135859_00168_d8x8s) []

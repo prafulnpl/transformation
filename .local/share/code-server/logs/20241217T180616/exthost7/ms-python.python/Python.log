@@ -1,0 +1,11 @@
+2024-12-18 05:21:16.818 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-18 05:21:16.818 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-18 05:21:16.818 [info] Experiment 'pythonTestAdapter' is active
+2024-12-18 05:21:16.818 [error] Dir "/opt/conda/lib/python3.11/site-packages" is not watchable (too many files)
+2024-12-18 05:21:16.924 [info] Test server listening.
+2024-12-18 05:21:17.931 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-18 05:21:17.931 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-12-18 05:21:17.931 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-12-18 05:21:17.931 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-12-18 05:21:18.239 [info] Python interpreter path: /bin/python3
+2024-12-18 05:21:20.014 [info] Starting Jedi language server for site-packages.

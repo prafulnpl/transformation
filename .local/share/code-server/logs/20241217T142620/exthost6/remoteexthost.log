@@ -1,0 +1,222 @@
+2024-12-17 16:29:33.114 [info] Extension host with pid 30933 started
+2024-12-17 16:29:33.129 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-b0fa7f7/vscode.lock': Lock acquired.
+2024-12-17 16:29:33.412 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2024-12-17 16:29:33.738 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-17 16:29:34.240 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-17 16:29:34.240 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-17 16:29:34.639 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-12-17 16:29:34.640 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-12-17 16:29:34.640 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-12-17 16:29:35.010 [info] ExtensionService#_doActivateExtension samuelcolvin.jinjahtml, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml', root cause: innoverio.vscode-dbt-power-user
+2024-12-17 16:29:35.010 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml', root cause: innoverio.vscode-dbt-power-user
+2024-12-17 16:29:36.016 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-12-17 16:29:36.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5573
+2024-12-17 16:29:37.150 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'api', root cause: samuelcolvin.jinjahtml
+2024-12-17 16:29:37.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5575
+2024-12-17 16:29:37.426 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-12-17 16:29:39.462 [info] ExtensionService#_doActivateExtension innoverio.vscode-dbt-power-user, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml'
+2024-12-17 16:29:41.272 [error] Error: Module 'pip' not installed.
+	at Jd.execModule (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:7:40513)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Ed.getPackageInformation (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:7:31745)
+2024-12-17 16:29:42.376 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.376 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.382 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.382 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.408 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.409 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.413 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.413 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.441 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.441 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.447 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.447 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-17 16:29:42.557 [info] Eager extensions activated
+2024-12-17 16:29:42.558 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 16:29:42.558 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-17 16:30:01.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5582
+2024-12-17 16:30:06.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5582
+2024-12-17 16:30:11.721 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5582
+2024-12-17 16:30:22.078 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5582
+2024-12-17 16:30:29.834 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-17 16:31:29.368 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-17 16:32:17.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5583
+2024-12-17 16:32:22.953 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5584
+2024-12-17 16:32:39.313 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-12-17 16:32:39.313 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-12-17 16:33:58.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5584
+2024-12-17 16:34:03.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5582
+2024-12-17 16:34:08.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5582
+2024-12-17 16:34:40.243 [error] Error: Module 'pip' not installed.
+	at Jd.execModule (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:7:40513)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Ed.getPackageInformation (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:7:31745)
+2024-12-17 16:35:02.177 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5583
+2024-12-17 16:38:22.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5620
+2024-12-17 16:38:51.810 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5564
+2024-12-17 16:38:56.984 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5564
+2024-12-17 16:39:08.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5564
+2024-12-17 16:39:14.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5565
+2024-12-17 16:39:19.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5565
+2024-12-17 16:41:02.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5565
+2024-12-17 16:41:08.059 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5565
+2024-12-17 16:41:12.422 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-17 16:42:21.406 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5606
+2024-12-17 16:43:22.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5655
+2024-12-17 16:44:59.236 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5639
+2024-12-17 16:45:04.412 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5638
+2024-12-17 16:45:09.630 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5638
+2024-12-17 16:45:59.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5638
+2024-12-17 16:46:04.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5612
+2024-12-17 16:46:09.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5606
+2024-12-17 16:46:27.066 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5609
+2024-12-17 16:46:43.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5609
+2024-12-17 16:46:48.737 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5608
+2024-12-17 16:50:43.711 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5613
+2024-12-17 16:50:48.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5613
+2024-12-17 16:52:19.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5649
+2024-12-17 16:52:24.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5651
+2024-12-17 16:52:47.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5652
+2024-12-17 16:52:52.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5653
+2024-12-17 16:53:03.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5654
+2024-12-17 16:53:08.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5654
+2024-12-17 16:53:13.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5654
+2024-12-17 16:53:20.917 [info] Extension host terminating: received terminate message from renderer
+2024-12-17 16:53:20.920 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-b0fa7f7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-12-17 16:53:20.967 [error] Canceled: Canceled
+	at Object.C [as $4] (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:7616
+	at Array.forEach (<anonymous>)
+	at i.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:7581)
+	at l.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8573)
+	at o.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at t (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:7846)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at v.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:13884)
+	at s.z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:16929)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:15381)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at n.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:11658)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:10945)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at b.u (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:132:19063) setContext undefined
+2024-12-17 16:53:20.967 [error] Canceled: Canceled
+	at Object.C [as $4] (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:7616
+	at Array.forEach (<anonymous>)
+	at i.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:7581)
+	at l.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8573)
+	at o.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at t (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:7846)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at v.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:13884)
+	at s.z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:16929)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:15381)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at n.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:11658)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:10945)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at b.u (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:132:19063) setContext undefined
+2024-12-17 16:53:20.968 [error] Canceled: Canceled
+	at new c (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:57324)
+	at i.O (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:10819)
+	at N.<computed>.z.charCodeAt.N.<computed> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:8258)
+	at a.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82935)
+	at a.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82359)
+	at A.registerCommand.description (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:81666)
+	at a.h (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:83471)
+	at a.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82459)
+	at a.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82359)
+	at Object.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:21215)
+	at n.D [as value] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1309000)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.x (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1988)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2204)
+	at Object.m [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1324784)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1329625
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1329611)
+	at r.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:103:4254)
+	at r.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:103:4389)
+	at r.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1311012)
+	at r.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:103:4389)
+	at k (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:13:11733)
+	at l.Z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:10421)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8337
+	at Array.map (<anonymous>)
+	at l.S (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8324)
+	at l.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8597)
+	at o.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at t (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:7846)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at v.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:13884)
+	at s.z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:16929)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:15381)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at n.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:11658)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:10945)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at b.u (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:132:19063) setContext undefined
+2024-12-17 16:53:20.968 [error] Canceled: Canceled
+	at new c (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:57324)
+	at i.O (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:10819)
+	at N.<computed>.z.charCodeAt.N.<computed> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:8258)
+	at a.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82935)
+	at a.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82359)
+	at A.registerCommand.description (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:81666)
+	at a.h (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:83471)
+	at a.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82459)
+	at a.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:107:82359)
+	at Object.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:21215)
+	at set b [as b] (/usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js:2:714434)
+	at /usr/lib/code-server/lib/vscode/extensions/github/dist/extension.js:2:715075
+	at n.value (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1396602)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.x (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1988)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2204)
+	at Object.m [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1324784)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1329625
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1329611)
+	at r.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:103:4254)
+	at r.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:103:4389)
+	at r.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:1311012)
+	at r.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:103:4389)
+	at k (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:13:11733)
+	at l.Z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:10421)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8337
+	at Array.map (<anonymous>)
+	at l.S (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8324)
+	at l.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:118:8597)
+	at o.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at t (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:135:7846)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at v.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:13884)
+	at s.z (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:16929)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:15381)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at n.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:11658)
+	at n.value (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:75:10945)
+	at b.w (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:1918)
+	at b.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:63:2135)
+	at b.u (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:132:19063) setContext undefined
+2024-12-17 16:53:20.968 [error] Error: The kernel died. Error: /usr/bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:24:91039)
+	at ChildProcess.emit (node:events:525:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-12-17 16:53:25.960 [info] Extension host with pid 30933 exiting with code 0

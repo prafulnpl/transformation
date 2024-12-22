@@ -1,0 +1,21 @@
+code-server (1.82.2, dlytica-academy-work-vm.eastus.cloudapp.azure.com:31997, server-distro)
+Jupyter Extension Version: 2023.7.100.
+Python Extension Version: 2023.18.0.
+Platform: linux (x64).
+Workspace folder /home/jovyan, Home = /home/jovyan
+04:57:03.381 [info] User belongs to experiment group 'NewJupyterSession'
+04:57:03.746 [info] Start refreshing Interpreter Kernel Picker (1734411423746)
+04:57:03.753 [info] Using Pylance
+04:57:04.083 [info] Process Execution: /jupyter notebook --version
+04:57:04.102 [info] Process Execution: /jupyter lab --version
+04:57:06.848 [warn] Failed to get activated env vars for /bin/python3 in 562ms
+04:57:06.868 [info] Process Execution: /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+04:57:06.898 [info] Process Execution: /bin/python3 -m pip list
+04:57:06.933 [info] Process Execution: /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+04:57:07.269 [info] End refreshing Interpreter Kernel Picker (1734411423746)
+13:55:23.956 [info] Loading webview. View is notset
+13:55:23.961 [info] Loading web view...
+13:55:23.963 [info] Webview panel created.
+13:55:41.460 [info] Disposing HostJupyterExecution
+13:55:41.460 [info] Shutting down notebooks for 38c7cc54-c4be-441a-a29c-42abafb6c892
+13:55:41.461 [info] Disposing HostJupyterExecution

@@ -1,0 +1,31 @@
+
+
+sources:
+  -version: 2
+
+sources:
+  - name: bronze                      # This is the Trino schema where data is stored
+    schema: bronze                    # Schema name in Trino (Iceberg catalog)
+    description: "Bronze layer data sourced from Iceberg tables"
+
+    tables:
+      - name: airbyte_raw_bus
+        description: "Raw data for bus leads extracted via Airbyte"
+
+      - name: airbyte_raw_classsubject
+        description: "Raw data for class subjects extracted via Airbyte"
+
+      - name: airbyte_raw_country
+        description: "Raw data for countries extracted via Airbyte"
+
+      - name: airbyte_raw_currentyear
+        description: "Raw data for current year extracted via Airbyte"
+
+      - name: airbyte_raw_department
+        description: "Raw data for departments extracted via Airbyte"
+
+      - name: airbyte_raw_district
+        description: "Raw data for districts extracted via Airbyte"
+
+      - name: airbyte_raw_education
+        description: "Raw data for education leads extracted via Airbyte"

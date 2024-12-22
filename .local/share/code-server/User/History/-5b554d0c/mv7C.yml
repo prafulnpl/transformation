@@ -1,0 +1,105 @@
+version: 2
+
+models:
+  - name: college_student
+    description: "A table containing ranked student records with enriched information from various related tables."
+    columns:
+      - name: studentid
+        description: "Unique identifier for each student."
+        tests:
+          - not_null
+          - unique
+
+      - name: fullname
+        description: "Full name of the student, concatenated from first and last names."
+        tests:
+          - not_null
+
+      - name: sectionname
+        description: "Name of the section to which the student is assigned. Defaults to 'N/A' if not assigned."
+
+      - name: SHIFTNAME
+        description: "Name of the shift during which the student attends classes. Defaults to 'N/A' if not specified."
+
+      - name: CLASSNAME
+        description: "Name of the class the student is enrolled in. Defaults to 'N/A' if not assigned."
+
+      - name: FACULTYNAME
+        description: "Name of the faculty associated with the student's department. Defaults to 'N/A' if not assigned."
+
+      - name: DEPARTMENTNAME
+        description: "Name of the department the student belongs to. Defaults to 'N/A' if not assigned."
+
+      - name: AYEAR
+        description: "Academic year associated with the student's enrollment. Defaults to 'N/A' if not specified."
+
+      - name: SSEX
+        description: "Sex of the student. Defaults to 'N/A' if not specified."
+
+      - name: DOB
+        description: "Date of birth of the student."
+        tests:
+          - not_null
+
+      - name: ADMDATE
+        description: "Admission date of the student."
+        tests:
+          - not_null
+
+      - name: HOBY
+        description: "Hobbies of the student."
+
+      - name: STATUS
+        description: "Current status of the student (e.g., active, graduated, etc.)."
+        tests:
+          - not_null
+
+      - name: SCHOOLFROM
+        description: "Previous school from which the student transferred. Defaults to 'N/A' if not specified."
+
+      - name: GROUPNAME
+        description: "Name of the group to which the student belongs. Defaults to 'N/A' if not assigned."
+
+      - name: CONTACTADDRESS
+        description: "Contact address of the student. Defaults to 'N/A' if not provided."
+
+      - name: CONTACTPHONE
+        description: "Contact phone number of the student. Defaults to 'N/A' if not provided."
+
+      - name: PARMANENTADDRESS
+        description: "Permanent address of the student. Defaults to 'N/A' if not provided."
+
+      - name: PARMANENTPHONE
+        description: "Permanent phone number of the student. Defaults to 'N/A' if not provided."
+
+      - name: FATHERNAME
+        description: "Name of the student's father. Defaults to 'N/A' if not provided."
+
+      - name: DISTRICTNAME
+        description: "Name of the district associated with the student. Defaults to 'N/A' if not specified."
+
+      - name: ZONENAME
+        description: "Name of the zone associated with the student. Defaults to 'N/A' if not specified."
+
+      - name: PARENTFULLNAME
+        description: "Full name of the student's parent, concatenated from first and last names."
+        tests:
+          - not_null
+
+      - name: PARENTMOBILENO
+        description: "Mobile number of the student's parent. Defaults to 'N/A' if not provided."
+
+      - name: PARENTEMAIL
+        description: "Email address of the student's parent. Defaults to 'N/A' if not provided."
+
+      - name: PARENTOFFICEPHONENO
+        description: "Office phone number of the student's parent. Defaults to 'N/A' if not provided."
+
+      - name: PARENTMOBILENO1
+        description: "Secondary mobile number of the student's parent. Defaults to 'N/A' if not provided."
+
+      - name: organization
+        description: "Name of the organization, statically set to 'UNIGLOBE COLLEGE'."
+        tests:
+          - accepted_values:
+              values: ['UNIGLOBE COLLEGE']

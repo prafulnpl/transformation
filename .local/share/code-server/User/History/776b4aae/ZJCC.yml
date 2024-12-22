@@ -1,0 +1,14 @@
+name: 'InternalAcademy'
+version: '1.0'
+config-version: 2
+
+profile: 'trino_project'  # Must match the profile name in profiles.yml
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  InternalAcademy:
+    +schema: default
+    +materialized: view

@@ -1,0 +1,15 @@
+Internal:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      host: 10.2.0.4            # Kubernetes Node IP
+      port: 32750               # NodePort for Trino service
+      user: admin               # Trino username
+      password: ''              # Leave blank if no password
+      schema: default_silver           # Schema in Trino
+      catalog: iceberg             # Hive catalog pointing to MinIO
+      threads: 1
+      ssl: false
+
+  target: dev

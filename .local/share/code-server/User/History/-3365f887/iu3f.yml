@@ -1,0 +1,114 @@
+version: 2
+
+sources:
+  - name: bronze_raw                     # This is the Trino schema where data is stored
+    schema: default                   # Schema name in Trino (Iceberg catalog)
+    description: "Bronze layer data sourced from Iceberg tables"
+
+    tables:
+      - name: airbyte_raw_bus
+        description: "Raw data for bus leads extracted via Airbyte"
+
+      - name: airbyte_raw_classsubject
+        description: "Raw data for class subjects extracted via Airbyte"
+
+      - name: airbyte_raw_country
+        description: "Raw data for countries extracted via Airbyte"
+
+      - name: airbyte_raw_shift
+        description: "Raw data for shift extracted via Airbyte"
+
+      - name: airbyte_raw_currentyear
+        description: "Raw data for current year extracted via Airbyte"
+
+      - name: airbyte_raw_department
+        description: "Raw data for departments extracted via Airbyte"
+
+      - name: airbyte_raw_district
+        description: "Raw data for districts extracted via Airbyte"
+
+      - name: airbyte_raw_education
+        description: "Raw data for education leads extracted via Airbyte"
+
+      - name: airbyte_raw_employment
+        description: "Raw data for employment information"
+
+      - name: airbyte_raw_examtype
+        description: "Raw data for exam types"
+
+      - name: airbyte_raw_faculty
+        description: "Raw data for faculty information"
+
+      - name: airbyte_raw_fiscal_year
+        description: "Raw data for fiscal years"
+
+      - name: airbyte_raw_generalstudent
+        description: "Raw data for general student information"
+
+      - name: airbyte_raw_guardian
+        description: "Raw data for guardian information"
+
+      - name: airbyte_raw_hostel
+        description: "Raw data for hostel details"
+
+      - name: airbyte_raw_house
+        description: "Raw data for house details"
+
+      - name: airbyte_raw_nationality
+        description: "Raw data for nationality information"
+
+      - name: airbyte_raw_occupation
+        description: "Raw data for occupations"
+
+      - name: airbyte_raw_relation
+        description: "Raw data for relations"
+
+      - name: airbyte_raw_remark
+        description: "Raw data for remarks"
+
+      - name: airbyte_raw_schoolattendance
+        description: "Raw data for school attendance"
+
+      - name: airbyte_raw_studentclass
+        description: "Raw data for student class information"
+
+      - name: airbyte_raw_studenthistory
+        description: "Raw data for student history"
+
+      - name: airbyte_raw_studentmain
+        description: "Raw data for main student records"
+
+      - name: airbyte_raw_studentremark
+        description: "Raw data for student remarks"
+
+      - name: airbyte_raw_studentsubject
+        description: "Raw data for student subjects"
+
+      - name: airbyte_raw_subject
+        description: "Raw data for subjects"
+
+      - name: airbyte_raw_subjectattendance
+        description: "Raw data for subject attendance"
+
+      - name: airbyte_raw_teachermain
+        description: "Raw data for main teacher records"
+
+      - name: airbyte_raw_teachersdetail
+        description: "Raw data for detailed teacher records"
+      - name: airbyte_raw_studentdetail
+        description: "Raw data for detailed student records"
+      - name: airbyte_raw_vdc
+        description: "Raw data for village development committees (VDC)"
+
+      - name: airbyte_raw_zone
+        description: "Raw data for zone information"
+      - name: airbyte_raw_ayear
+        description: "Raw data for year information"
+
+      - name: airbyte_raw_dlytica_academy_lead_converted_lead_tbln3zyr01r2qasyc
+        description: "Raw data for converted leads"
+    
+      - name: airbyte_raw_dlytica_academy_lead_screened_leads_tblelhdxsn4et31rl
+        description: "Raw data for screened leads"
+
+    

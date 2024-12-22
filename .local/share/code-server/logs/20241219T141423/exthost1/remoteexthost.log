@@ -1,0 +1,71 @@
+2024-12-22 09:56:54.589 [info] Extension host with pid 114 started
+2024-12-22 09:56:54.598 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-b0fa7f7/vscode.lock': Lock acquired.
+2024-12-22 09:56:54.902 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-22 09:56:55.242 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-22 09:56:55.491 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-22 09:56:55.491 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-22 09:56:56.042 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5969
+2024-12-22 09:56:56.559 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-12-22 09:56:56.583 [info] ExtensionService#_doActivateExtension samuelcolvin.jinjahtml, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml', root cause: innoverio.vscode-dbt-power-user
+2024-12-22 09:56:56.583 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml', root cause: innoverio.vscode-dbt-power-user
+2024-12-22 09:56:56.843 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5971
+2024-12-22 09:56:57.602 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'api', root cause: samuelcolvin.jinjahtml
+2024-12-22 09:56:58.442 [info] ExtensionService#_doActivateExtension innoverio.vscode-dbt-power-user, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml'
+2024-12-22 09:57:01.364 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-22 09:57:01.364 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-22 09:57:01.367 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-22 09:57:01.367 [warning] DiagnosticCollection with name 'dbt' does already exist.
+2024-12-22 09:57:01.428 [info] Eager extensions activated
+2024-12-22 09:57:01.429 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-22 09:57:01.429 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-22 09:57:05.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 09:57:10.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 09:57:15.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 09:57:20.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 09:57:33.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 09:57:38.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:02:08.019 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:02:13.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:08.560 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:13.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:18.785 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:24.354 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:38.943 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:40.125 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-22 10:07:44.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:49.161 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:54.274 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:07:59.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:05.361 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:10.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:15.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:20.712 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:25.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:30.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:36.048 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:41.163 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:46.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:51.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:08:56.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:01.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:21.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:26.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:36.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:41.944 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:54.308 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:09:59.420 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:04.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:09.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:14.756 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:19.874 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:24.999 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:30.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:35.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:40.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:45.463 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:50.589 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:10:55.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:11:01.662 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:11:06.777 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:11:11.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976
+2024-12-22 10:11:17.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5976

@@ -1,0 +1,76 @@
+2024-12-18 10:21:58.849 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/home/jovyan/Internal/dbt_project.yml","path":"/home/jovyan/Internal/dbt_project.yml","scheme":"file"}]]
+2024-12-18 10:21:58.849 [info] discoverProjects:allowListFolders [[]]
+2024-12-18 10:21:58.849 [info] discoverProjects:foundProjectsAfterFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-18 10:21:58.958 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","external":"file:///home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-18 10:21:59.022 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-18 10:31:12.009 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Converted_Lead_N3Zyr01R2Qasyc --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:31:12.161 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:31:12.164 [info]  []
+2024-12-18 10:31:47.878 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:31:47.926 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:31:47.929 [info]  []
+2024-12-18 10:31:56.262 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:31:56.335 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:31:56.335 [info]  []
+2024-12-18 10:32:08.370 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:32:08.519 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:32:08.523 [info]  []
+2024-12-18 10:32:27.748 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:32:27.796 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:32:27.799 [info]  []
+2024-12-18 10:32:39.154 [warning] InsightsPanel:No project selected []
+2024-12-18 10:33:12.330 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:33:12.484 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:33:12.487 [info]  []
+2024-12-18 10:34:01.921 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:34:01.971 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:34:01.974 [info]  []
+2024-12-18 10:37:36.735 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:37:36.811 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:37:36.812 [info]  []
+2024-12-18 10:37:47.625 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:37:47.668 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:37:47.671 [info]  []
+2024-12-18 10:40:23.879 [info] > Executing task: dbt run --select silver_Dlytica_Academy_Lead_Screened_Leads_Elhdxsn4Et31Rl --project-dir /home/jovyan/Internal
+ []
+2024-12-18 10:40:23.931 [info] Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+ModuleNotFoundError: No module named 'dbt'
+ []
+2024-12-18 10:40:23.934 [info]  []

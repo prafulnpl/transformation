@@ -1,0 +1,13 @@
+code-server (1.82.2, dlytica-academy-work-vm.eastus.cloudapp.azure.com:31997, server-distro)
+Jupyter Extension Version: 2023.7.100.
+Python Extension Version: 2023.18.0.
+Platform: linux (x64).
+Workspace folder /home/jovyan, Home = /home/jovyan
+10:23:59.193 [info] User belongs to experiment group 'NewJupyterSession'
+10:23:59.615 [info] Start refreshing Interpreter Kernel Picker (1734517439615)
+10:23:59.630 [info] Using Pylance
+10:24:00.972 [info] Process Execution: /opt/conda/bin/python -m pip list
+10:24:04.058 [info] End refreshing Interpreter Kernel Picker (1734517439615)
+10:40:28.070 [info] Disposing HostJupyterExecution
+10:40:28.070 [info] Shutting down notebooks for 4cbcfc79-a8be-45b7-bf91-d757a407fef2
+10:40:28.071 [info] Disposing HostJupyterExecution

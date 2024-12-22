@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: bronze_raw
+    schema: ICEBERG.DEFAULT  # Replace with your actual bronze schema name in Trino
+    tables:
+      - name: airbyte_raw_bus
+      - name: airbyte_raw_classsubject
+      - name: airbyte_raw_country
+      - name: airbyte_raw_currentyear
+      - name: airbyte_raw_department
+      - name: airbyte_raw_district
+      - name: airbyte_raw_education
+      - name: airbyte_raw_employment
+      - name: airbyte_raw_examtype
+      - name: airbyte_raw_faculty
+      - name: airbyte_raw_fiscal_year
+      - name: airbyte_raw_generalstudent
+      - name: airbyte_raw_guardian
+      - name: airbyte_raw_hostel
+      - name: airbyte_raw_house
+      - name: airbyte_raw_nationality
+      - name: airbyte_raw_occupation
+      - name: airbyte_raw_relation
+      - name: airbyte_raw_remark
+      - name: airbyte_raw_schoolattendance
+      - name: airbyte_raw_studentclass

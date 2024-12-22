@@ -1,0 +1,36 @@
+2024-12-17 13:54:08.300 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 13:54:08.300 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 13:54:08.300 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 13:54:08.365 [info] Test server listening.
+2024-12-17 13:54:08.382 [info] > conda info --json
+2024-12-17 13:54:08.386 [info] Found: /bin/python3 --> /bin/python3.10
+2024-12-17 13:54:08.386 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-12-17 13:54:08.391 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-12-17 13:54:08.391 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-12-17 13:54:08.408 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2024-12-17 13:54:08.409 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2024-12-17 13:54:08.409 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2024-12-17 13:54:08.409 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2024-12-17 13:54:08.460 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 13:54:08.485 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-12-17 13:54:09.627 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-12-17 13:54:09.644 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 13:54:09.750 [info] Python interpreter path: /bin/python3
+2024-12-17 13:54:10.632 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-17 13:54:10.632 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-12-17 13:54:11.810 [info] Starting Jedi language server for jovyan.
+2024-12-17 13:58:05.195 [info] > conda info --json
+2024-12-17 13:58:05.195 [info] shell: bash
+2024-12-17 13:58:05.197 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan
+2024-12-17 13:58:05.200 [info] Python interpreter path: /opt/conda/bin/python
+2024-12-17 13:58:07.354 [info] > conda run -n base --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-17 13:58:07.355 [info] shell: bash
+2024-12-17 13:58:09.520 [info] > /bin/python3 ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-17 13:58:09.520 [info] shell: bash
+2024-12-17 13:58:09.535 [info] Starting Jedi language server for jovyan.

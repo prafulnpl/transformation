@@ -1,0 +1,389 @@
+2024-12-17 14:35:53.683 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project_1/dbt_project.yml","path":"/home/jovyan/my_dbt_project_1/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project_1/InternalAcademy/dbt_project.yml","path":"/home/jovyan/my_dbt_project_1/InternalAcademy/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/Internal/dbt_project.yml","path":"/home/jovyan/Internal/dbt_project.yml","scheme":"file"}]]
+2024-12-17 14:35:53.683 [info] discoverProjects:allowListFolders [[]]
+2024-12-17 14:35:53.683 [info] discoverProjects:foundProjectsAfterFilter [[{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project_1","path":"/home/jovyan/my_dbt_project_1","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project_1/InternalAcademy","path":"/home/jovyan/my_dbt_project_1/InternalAcademy","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-17 14:35:55.928 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project_1","external":"file:///home/jovyan/my_dbt_project_1","path":"/home/jovyan/my_dbt_project_1","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/my_dbt_project_1/InternalAcademy","external":"file:///home/jovyan/my_dbt_project_1/InternalAcademy","path":"/home/jovyan/my_dbt_project_1/InternalAcademy","scheme":"file"},{"$mid":1,"fsPath":"/home/jovyan/Internal","external":"file:///home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-17 14:35:58.633 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 14:35:58.651 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 14:35:59.941 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 14:53:55.808 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:53:57.538 [info] 14:53:57  Running with dbt=1.8.0
+ []
+2024-12-17 14:53:57.801 [info] 14:53:57  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:53:58.222 [info] 14:53:58  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:53:58.225 [info] 14:53:58  
+ []
+2024-12-17 14:53:58.280 [info] 14:53:58  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 14:53:58.555 [info] 14:53:58  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 14:53:58.556 [info] 14:53:58  
+ []
+2024-12-17 14:53:58.559 [info] 14:53:58  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 14:53:58.615 [info] 14:53:58  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.05s]
+ []
+2024-12-17 14:53:58.620 [info] 14:53:58  
+ []
+2024-12-17 14:53:58.620 [info] 14:53:58  Finished running 1 view model in 0 hours 0 minutes and 0.39 seconds (0.39s).
+ []
+2024-12-17 14:53:58.664 [info] 14:53:58  
+ []
+2024-12-17 14:53:58.665 [info] 14:53:58  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 14:53:58.665 [info] 14:53:58  
+ []
+2024-12-17 14:53:58.666 [info] 14:53:58    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 7:30: mismatched input '('. Expecting: ',', '.', 'AS', 'CROSS', 'EXCEPT', 'FETCH', 'FOR', 'FULL', 'GROUP', 'HAVING', 'INNER', 'INTERSECT', 'JOIN', 'LEFT', 'LIMIT', 'MATCH_RECOGNIZE', 'NATURAL', 'OFFSET', 'ORDER', 'RIGHT', 'TABLESAMPLE', 'UNION', 'WHERE', 'WINDOW', <EOF>, <identifier>", query_id=20241217_145358_00211_d8x8s)
+  compiled code at target/run/Internal/models/example/college_leads.sql
+ []
+2024-12-17 14:53:58.667 [info] 14:53:58  
+ []
+2024-12-17 14:53:58.667 [info] 14:53:58  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 14:53:59.123 [info]  []
+2024-12-17 14:54:06.383 [info] > Executing task: dbt test --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:54:07.920 [info] 14:54:07  Running with dbt=1.8.0
+ []
+2024-12-17 14:54:08.169 [info] 14:54:08  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:54:08.596 [info] 14:54:08  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:54:08.598 [info] 14:54:08  
+ []
+2024-12-17 14:54:08.599 [info] 14:54:08  Nothing to do. Try checking your model configs and model specification args
+ []
+2024-12-17 14:54:08.964 [info]  []
+2024-12-17 14:54:09.378 [info] > Executing task: dbt test --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:54:10.981 [info] 14:54:10  Running with dbt=1.8.0
+ []
+2024-12-17 14:54:11.252 [info] 14:54:11  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:54:11.665 [info] 14:54:11  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:54:11.668 [info] 14:54:11  
+ []
+2024-12-17 14:54:11.668 [info] 14:54:11  Nothing to do. Try checking your model configs and model specification args
+ []
+2024-12-17 14:54:12.117 [info]  []
+2024-12-17 14:56:24.025 [info] > Executing task: dbt build --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:56:25.595 [info] 14:56:25  Running with dbt=1.8.0
+ []
+2024-12-17 14:56:25.842 [info] 14:56:25  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:56:26.254 [info] 14:56:26  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:56:26.257 [info] 14:56:26  
+ []
+2024-12-17 14:56:26.314 [info] 14:56:26  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 14:56:26.452 [info] 14:56:26  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 14:56:26.453 [info] 14:56:26  
+ []
+2024-12-17 14:56:26.456 [info] 14:56:26  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 14:56:26.510 [info] 14:56:26  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.05s]
+ []
+2024-12-17 14:56:26.514 [info] 14:56:26  
+ []
+2024-12-17 14:56:26.515 [info] 14:56:26  Finished running 1 view model in 0 hours 0 minutes and 0.26 seconds (0.26s).
+ []
+2024-12-17 14:56:26.555 [info] 14:56:26  
+ []
+2024-12-17 14:56:26.555 [info] 14:56:26  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 14:56:26.555 [info] 14:56:26  
+ []
+2024-12-17 14:56:26.556 [info] 14:56:26    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 7:30: mismatched input '('. Expecting: ',', '.', 'AS', 'CROSS', 'EXCEPT', 'FETCH', 'FOR', 'FULL', 'GROUP', 'HAVING', 'INNER', 'INTERSECT', 'JOIN', 'LEFT', 'LIMIT', 'MATCH_RECOGNIZE', 'NATURAL', 'OFFSET', 'ORDER', 'RIGHT', 'TABLESAMPLE', 'UNION', 'WHERE', 'WINDOW', <EOF>, <identifier>", query_id=20241217_145626_00214_d8x8s)
+  compiled code at target/run/Internal/models/example/college_leads.sql
+ []
+2024-12-17 14:56:26.557 [info] 14:56:26  
+ []
+2024-12-17 14:56:26.557 [info] 14:56:26  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 14:56:26.979 [info]  []
+2024-12-17 14:57:29.639 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:57:31.148 [info] 14:57:31  Running with dbt=1.8.0
+ []
+2024-12-17 14:57:31.392 [info] 14:57:31  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:57:32.000 [info] 14:57:32  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:57:32.004 [info] 14:57:32  
+ []
+2024-12-17 14:57:32.068 [info] 14:57:32  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 14:57:32.212 [info] 14:57:32  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 14:57:32.212 [info] 14:57:32  
+ []
+2024-12-17 14:57:32.216 [info] 14:57:32  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 14:57:32.271 [info] 14:57:32  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.05s]
+ []
+2024-12-17 14:57:32.276 [info] 14:57:32  
+ []
+2024-12-17 14:57:32.276 [info] 14:57:32  Finished running 1 view model in 0 hours 0 minutes and 0.27 seconds (0.27s).
+ []
+2024-12-17 14:57:32.322 [info] 14:57:32  
+ []
+2024-12-17 14:57:32.323 [info] 14:57:32  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 14:57:32.323 [info] 14:57:32  
+ []
+2024-12-17 14:57:32.324 [info] 14:57:32    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 11:21: mismatched input '('. Expecting: ')', ',', '.', 'AS', 'CROSS', 'EXCEPT', 'FETCH', 'FOR', 'FULL', 'GROUP', 'HAVING', 'INNER', 'INTERSECT', 'JOIN', 'LEFT', 'LIMIT', 'MATCH_RECOGNIZE', 'NATURAL', 'OFFSET', 'ORDER', 'RIGHT', 'TABLESAMPLE', 'UNION', 'WHERE', 'WINDOW', <identifier>", query_id=20241217_145732_00217_d8x8s)
+  compiled code at target/run/Internal/models/example/college_leads.sql
+ []
+2024-12-17 14:57:32.325 [info] 14:57:32  
+ []
+2024-12-17 14:57:32.325 [info] 14:57:32  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 14:57:32.817 [info]  []
+2024-12-17 14:57:45.944 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:57:47.560 [info] 14:57:47  Running with dbt=1.8.0
+ []
+2024-12-17 14:57:47.809 [info] 14:57:47  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:57:48.269 [info] 14:57:48  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:57:48.272 [info] 14:57:48  
+ []
+2024-12-17 14:57:48.329 [info] 14:57:48  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 14:57:48.456 [info] 14:57:48  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 14:57:48.457 [info] 14:57:48  
+ []
+2024-12-17 14:57:48.461 [info] 14:57:48  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 14:57:48.519 [info] 14:57:48  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.06s]
+ []
+2024-12-17 14:57:48.524 [info] 14:57:48  
+ []
+2024-12-17 14:57:48.524 [info] 14:57:48  Finished running 1 view model in 0 hours 0 minutes and 0.25 seconds (0.25s).
+ []
+2024-12-17 14:57:48.567 [info] 14:57:48  
+ []
+2024-12-17 14:57:48.567 [info] 14:57:48  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 14:57:48.567 [info] 14:57:48  
+ []
+2024-12-17 14:57:48.568 [info] 14:57:48    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 11:21: mismatched input '('. Expecting: ')', ',', '.', 'AS', 'CROSS', 'EXCEPT', 'FETCH', 'FOR', 'FULL', 'GROUP', 'HAVING', 'INNER', 'INTERSECT', 'JOIN', 'LEFT', 'LIMIT', 'MATCH_RECOGNIZE', 'NATURAL', 'OFFSET', 'ORDER', 'RIGHT', 'TABLESAMPLE', 'UNION', 'WHERE', 'WINDOW', <identifier>", query_id=20241217_145748_00220_d8x8s)
+  compiled code at target/run/Internal/models/example/college_leads.sql
+ []
+2024-12-17 14:57:48.569 [info] 14:57:48  
+ []
+2024-12-17 14:57:48.569 [info] 14:57:48  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 14:57:49.044 [info]  []
+2024-12-17 14:58:49.132 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:58:50.707 [info] 14:58:50  Running with dbt=1.8.0
+ []
+2024-12-17 14:58:50.971 [info] 14:58:50  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:58:51.599 [info] 14:58:51  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:58:51.602 [info] 14:58:51  
+ []
+2024-12-17 14:58:51.654 [info] 14:58:51  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 14:58:51.793 [info] 14:58:51  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 14:58:51.793 [info] 14:58:51  
+ []
+2024-12-17 14:58:51.797 [info] 14:58:51  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 14:58:51.858 [info] 14:58:51  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.06s]
+ []
+2024-12-17 14:58:51.864 [info] 14:58:51  
+ []
+2024-12-17 14:58:51.865 [info] 14:58:51  Finished running 1 view model in 0 hours 0 minutes and 0.26 seconds (0.26s).
+ []
+2024-12-17 14:58:51.917 [info] 14:58:51  
+ []
+2024-12-17 14:58:51.918 [info] 14:58:51  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 14:58:51.919 [info] 14:58:51  
+ []
+2024-12-17 14:58:51.919 [info] 14:58:51    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=FUNCTION_NOT_FOUND, message="line 10:9: Table function 'json_parser' not registered", query_id=20241217_145851_00223_d8x8s)
+  compiled code at target/run/Internal/models/example/college_leads.sql
+ []
+2024-12-17 14:58:51.920 [info] 14:58:51  
+ []
+2024-12-17 14:58:51.920 [info] 14:58:51  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 14:58:52.388 [info]  []
+2024-12-17 14:59:13.747 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 14:59:15.272 [info] 14:59:15  Running with dbt=1.8.0
+ []
+2024-12-17 14:59:15.544 [info] 14:59:15  Registered adapter: trino=1.8.5
+ []
+2024-12-17 14:59:16.167 [info] 14:59:16  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 14:59:16.170 [info] 14:59:16  
+ []
+2024-12-17 14:59:16.222 [info] 14:59:16  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 14:59:16.352 [info] 14:59:16  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 14:59:16.353 [info] 14:59:16  
+ []
+2024-12-17 14:59:16.357 [info] 14:59:16  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 14:59:16.412 [info] 14:59:16  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.05s]
+ []
+2024-12-17 14:59:16.417 [info] 14:59:16  
+ []
+2024-12-17 14:59:16.418 [info] 14:59:16  Finished running 1 view model in 0 hours 0 minutes and 0.25 seconds (0.25s).
+ []
+2024-12-17 14:59:16.464 [info] 14:59:16  
+ []
+2024-12-17 14:59:16.464 [info] 14:59:16  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 14:59:16.465 [info] 14:59:16  
+ []
+2024-12-17 14:59:16.466 [info] 14:59:16    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=SYNTAX_ERROR, message="line 11:21: mismatched input '('. Expecting: ')', ',', '.', 'AS', 'CROSS', 'EXCEPT', 'FETCH', 'FOR', 'FULL', 'GROUP', 'HAVING', 'INNER', 'INTERSECT', 'JOIN', 'LEFT', 'LIMIT', 'MATCH_RECOGNIZE', 'NATURAL', 'OFFSET', 'ORDER', 'RIGHT', 'TABLESAMPLE', 'UNION', 'WHERE', 'WINDOW', <identifier>", query_id=20241217_145916_00226_d8x8s)
+  compiled code at target/run/Internal/models/example/college_leads.sql
+ []
+2024-12-17 14:59:16.466 [info] 14:59:16  
+ []
+2024-12-17 14:59:16.466 [info] 14:59:16  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 14:59:16.902 [info]  []
+2024-12-17 15:01:50.670 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 15:01:52.270 [info] 15:01:52  Running with dbt=1.8.0
+ []
+2024-12-17 15:01:52.524 [info] 15:01:52  Registered adapter: trino=1.8.5
+ []
+2024-12-17 15:01:53.185 [info] 15:01:53  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 15:01:53.187 [info] 15:01:53  
+ []
+2024-12-17 15:01:53.235 [info] 15:01:53  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 15:01:53.383 [info] 15:01:53  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 15:01:53.383 [info] 15:01:53  
+ []
+2024-12-17 15:01:53.387 [info] 15:01:53  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 15:01:53.451 [info] 15:01:53  1 of 1 ERROR creating sql view model default_silver.college_leads .............. [ERROR in 0.06s]
+ []
+2024-12-17 15:01:53.456 [info] 15:01:53  
+ []
+2024-12-17 15:01:53.457 [info] 15:01:53  Finished running 1 view model in 0 hours 0 minutes and 0.27 seconds (0.27s).
+ []
+2024-12-17 15:01:53.500 [info] 15:01:53  
+ []
+2024-12-17 15:01:53.500 [info] 15:01:53  Completed with 1 error and 0 warnings:
+ []
+2024-12-17 15:01:53.501 [info] 15:01:53  
+ []
+2024-12-17 15:01:53.501 [info] 15:01:53    Database Error in model college_leads (models/example/college_leads.sql)
+  TrinoUserError(type=USER_ERROR, name=FUNCTION_NOT_FOUND, message="line 4:25: Function 'json_keys' not registered", query_id=20241217_150153_00229_d8x8s)
+ []
+2024-12-17 15:01:53.502 [info] 15:01:53  
+ []
+2024-12-17 15:01:53.502 [info] 15:01:53  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+ []
+2024-12-17 15:01:53.995 [info]  []
+2024-12-17 15:03:34.954 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 15:03:36.560 [info] 15:03:36  Running with dbt=1.8.0
+ []
+2024-12-17 15:03:36.842 [info] 15:03:36  Registered adapter: trino=1.8.5
+ []
+2024-12-17 15:03:37.510 [info] 15:03:37  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 15:03:37.512 [info] 15:03:37  
+ []
+2024-12-17 15:03:37.568 [info] 15:03:37  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 15:03:37.713 [info] 15:03:37  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 15:03:37.714 [info] 15:03:37  
+ []
+2024-12-17 15:03:37.718 [info] 15:03:37  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 15:03:37.913 [info] 15:03:37  1 of 1 OK created sql view model default_silver.college_leads .................. [CREATE VIEW in 0.19s]
+ []
+2024-12-17 15:03:37.917 [info] 15:03:37  
+ []
+2024-12-17 15:03:37.917 [info] 15:03:37  Finished running 1 view model in 0 hours 0 minutes and 0.40 seconds (0.40s).
+ []
+2024-12-17 15:03:37.959 [info] 15:03:37  
+ []
+2024-12-17 15:03:37.959 [info] 15:03:37  Completed successfully
+ []
+2024-12-17 15:03:37.960 [info] 15:03:37  
+ []
+2024-12-17 15:03:37.960 [info] 15:03:37  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+ []
+2024-12-17 15:03:38.405 [info]  []
+2024-12-17 15:08:32.538 [info] > Executing task: dbt run --select college_leads --project-dir /home/jovyan/Internal --profiles-dir /home/jovyan/Internal
+ []
+2024-12-17 15:08:34.221 [info] 15:08:34  Running with dbt=1.8.0
+ []
+2024-12-17 15:08:34.469 [info] 15:08:34  Registered adapter: trino=1.8.5
+ []
+2024-12-17 15:08:35.118 [info] 15:08:35  Found 3 models, 4 data tests, 32 sources, 566 macros
+ []
+2024-12-17 15:08:35.120 [info] 15:08:35  
+ []
+2024-12-17 15:08:35.182 [info] 15:08:35  [WARNING]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+ []
+2024-12-17 15:08:35.813 [info] 15:08:35  Concurrency: 1 threads (target='dev')
+ []
+2024-12-17 15:08:35.814 [info] 15:08:35  
+ []
+2024-12-17 15:08:35.818 [info] 15:08:35  1 of 1 START sql view model default_silver.college_leads ....................... [RUN]
+ []
+2024-12-17 15:08:37.116 [info] 15:08:37  1 of 1 OK created sql view model default_silver.college_leads .................. [CREATE VIEW in 1.29s]
+ []
+2024-12-17 15:08:37.120 [info] 15:08:37  
+ []
+2024-12-17 15:08:37.121 [info] 15:08:37  Finished running 1 view model in 0 hours 0 minutes and 2.00 seconds (2.00s).
+ []
+2024-12-17 15:08:37.164 [info] 15:08:37  
+ []
+2024-12-17 15:08:37.165 [info] 15:08:37  Completed successfully
+ []
+2024-12-17 15:08:37.165 [info] 15:08:37  
+ []
+2024-12-17 15:08:37.166 [info] 15:08:37  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+ []
+2024-12-17 15:08:37.654 [info]  []

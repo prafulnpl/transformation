@@ -1,0 +1,16 @@
+2024-12-18 05:21:14.315 [info] Extension host with pid 51139 started
+2024-12-18 05:21:14.326 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/6c70868d/vscode.lock': Lock acquired.
+2024-12-18 05:21:15.006 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-18 05:21:15.343 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-18 05:21:15.343 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-18 05:21:15.862 [info] ExtensionService#_doActivateExtension samuelcolvin.jinjahtml, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml', root cause: innoverio.vscode-dbt-power-user
+2024-12-18 05:21:15.863 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml', root cause: innoverio.vscode-dbt-power-user
+2024-12-18 05:21:16.379 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'api', root cause: samuelcolvin.jinjahtml
+2024-12-18 05:21:17.225 [info] ExtensionService#_doActivateExtension innoverio.vscode-dbt-power-user, startup: true, activationEvent: 'workspaceContains:**/dbt_project.yml'
+2024-12-18 05:21:18.407 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-12-18 05:21:20.952 [info] Eager extensions activated
+2024-12-18 05:21:20.953 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-18 05:21:20.953 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-18 05:21:27.983 [info] Extension host terminating: received terminate message from renderer
+2024-12-18 05:21:27.984 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/6c70868d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-12-18 05:21:33.006 [info] Extension host with pid 51139 exiting with code 0

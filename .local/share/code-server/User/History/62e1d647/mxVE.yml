@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze_schema  # Replace with your actual bronze schema name in Trino
+    tables:
+      - name: STUDENTDETAIL
+      - name: studentsection
+      - name: SHIFT
+      - name: STUDENTCLASS
+      - name: FACULTY
+      - name: DEPARTMENT
+      - name: AYEAR
+      - name: STUDENTMAIN
+      - name: Batch
+      - name: NGROUP
+      - name: GENERALSTUDENT
+      - name: ZONE
+      - name: DISTRICT
+      - name: PARENT

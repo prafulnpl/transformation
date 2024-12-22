@@ -1,0 +1,13 @@
+2024-12-17 18:06:30.687 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/home/jovyan/Internal/dbt_project.yml","path":"/home/jovyan/Internal/dbt_project.yml","scheme":"file"}]]
+2024-12-17 18:06:30.687 [info] discoverProjects:allowListFolders [[]]
+2024-12-17 18:06:30.687 [info] discoverProjects:foundProjectsAfterFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-17 18:06:30.772 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","external":"file:///home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-17 18:06:30.828 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []
+2024-12-17 18:07:47.859 [info] /bin/python3: No module named pip
+ []
+2024-12-17 18:07:47.862 [info]  []
+2024-12-17 22:17:38.803 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/home/jovyan/Internal/dbt_project.yml","path":"/home/jovyan/Internal/dbt_project.yml","scheme":"file"}]]
+2024-12-17 22:17:38.803 [info] discoverProjects:allowListFolders [[]]
+2024-12-17 22:17:38.803 [info] discoverProjects:foundProjectsAfterFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-17 22:17:38.889 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[{"$mid":1,"fsPath":"/home/jovyan/Internal","external":"file:///home/jovyan/Internal","path":"/home/jovyan/Internal","scheme":"file"}]]
+2024-12-17 22:17:38.944 [warning] DBTProject:Could not send out ProjectConfigChangedEvent because project is not initialized properly. dbt path settings cannot be determined []

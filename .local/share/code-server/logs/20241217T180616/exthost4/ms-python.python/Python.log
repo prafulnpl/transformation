@@ -1,0 +1,13 @@
+2024-12-18 05:14:35.225 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-18 05:14:35.225 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-18 05:14:35.225 [info] Experiment 'pythonTestAdapter' is active
+2024-12-18 05:14:35.928 [info] Test server listening.
+2024-12-18 05:14:35.929 [info] Python interpreter path: /opt/conda/bin/python
+2024-12-18 05:14:36.644 [info] > conda info --json
+2024-12-18 05:14:36.644 [info] shell: bash
+2024-12-18 05:14:37.410 [info] Starting Jedi language server for jovyan.
+2024-12-18 05:14:37.464 [info] > conda info --json
+2024-12-18 05:14:37.580 [info] > conda run -n base --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-18 05:14:37.580 [info] shell: bash
+2024-12-18 05:14:38.635 [info] > /bin/python3 ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-18 05:14:38.635 [info] shell: bash

@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze  
+    tables:
+      - name: college_leads
+        description: "Raw data from the college database"
+      - name: website_leads
+        description: "Raw data from website leads"
+      - name: facebook_leads
+        description: "Raw data from Facebook leads"

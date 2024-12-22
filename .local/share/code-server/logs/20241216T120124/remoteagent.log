@@ -1,0 +1,309 @@
+2024-12-16 12:01:24.352 [info] 
+
+
+
+
+2024-12-16 12:01:24.365 [info] Extension host agent started.
+2024-12-16 12:01:30.457 [info] [127.0.0.6][bc45b195][ManagementConnection] New connection established.
+2024-12-16 12:01:33.111 [info] [127.0.0.6][4c85f6f0][ExtensionHostConnection] New connection established.
+2024-12-16 12:01:33.125 [info] [127.0.0.6][4c85f6f0][ExtensionHostConnection] <127> Launched Extension Host Process.
+2024-12-16 12:05:40.253 [info] Getting Manifest... ms-toolsai.jupyter
+2024-12-16 12:05:40.864 [info] Installing extension: ms-toolsai.jupyter
+2024-12-16 12:05:41.194 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-12-16 12:05:41.588 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-12-16 12:05:42.049 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2024-12-16 12:05:42.511 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2024-12-16 12:05:42.955 [info] Installing extension: ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2024-12-16 12:05:42.956 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2024-12-16 12:05:42.956 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2024-12-16 12:05:42.957 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2024-12-16 12:05:44.142 [info] Extension signature verification is not done: ms-toolsai.jupyter-keymap
+2024-12-16 12:05:44.183 [info] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2024-12-16 12:05:44.192 [info] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2024-12-16 12:05:44.194 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2024-12-16 12:05:44.236 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-slideshow
+2024-12-16 12:05:44.258 [info] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal: ms-toolsai.vscode-jupyter-slideshow
+2024-12-16 12:05:44.269 [info] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2024-12-16 12:05:44.270 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2024-12-16 12:05:44.311 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-cell-tags
+2024-12-16 12:05:44.337 [info] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal: ms-toolsai.vscode-jupyter-cell-tags
+2024-12-16 12:05:44.348 [info] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2024-12-16 12:05:44.351 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2024-12-16 12:05:45.177 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2024-12-16 12:05:45.459 [info] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal: ms-toolsai.jupyter-renderers
+2024-12-16 12:05:45.469 [info] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal
+2024-12-16 12:05:45.471 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2024-12-16 12:05:47.592 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2024-12-16 12:05:48.070 [info] Extracted extension to file:///home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal: ms-toolsai.jupyter
+2024-12-16 12:05:48.084 [info] Renamed to /home/jovyan/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal
+2024-12-16 12:05:48.088 [info] Extracting extension completed. ms-toolsai.jupyter
+2024-12-16 12:05:48.095 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2024-12-16 12:05:48.095 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2024-12-16 12:05:48.095 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2024-12-16 12:05:48.095 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2024-12-16 12:05:48.095 [info] Extension installed successfully: ms-toolsai.jupyter
+2024-12-16 12:06:48.138 [info] [127.0.0.6][bc45b195][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-16 12:06:48.139 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.142 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.142 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.142 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.143 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.143 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.143 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.143 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.143 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.144 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.144 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.144 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:48.144 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 12:06:50.285 [info] [127.0.0.6][1321a1e2][ManagementConnection] New connection established.
+2024-12-16 12:06:52.722 [info] [127.0.0.6][a68550b3][ExtensionHostConnection] New connection established.
+2024-12-16 12:06:52.734 [info] [127.0.0.6][a68550b3][ExtensionHostConnection] <1103> Launched Extension Host Process.
+2024-12-16 12:06:53.180 [info] [127.0.0.6][4c85f6f0][ExtensionHostConnection] <127> Extension Host Process exited with code: 0, signal: null.
+2024-12-16 12:43:28.409 [info] [127.0.0.6][a68550b3][ExtensionHostConnection] The client has reconnected.
+2024-12-16 12:43:28.890 [info] [127.0.0.6][1321a1e2][ManagementConnection] The client has reconnected.
+2024-12-16 13:00:42.205 [info] [127.0.0.6][1321a1e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-16 13:00:42.206 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:42.208 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+2024-12-16 13:00:47.256 [info] [127.0.0.6][a68550b3][ExtensionHostConnection] <1103> Extension Host Process exited with code: 0, signal: null.
+2024-12-16 13:13:54.829 [info] [127.0.0.6][9b8cd4b0][ManagementConnection] New connection established.
+2024-12-16 13:13:58.605 [info] [127.0.0.6][a952c765][ExtensionHostConnection] New connection established.
+2024-12-16 13:13:58.615 [info] [127.0.0.6][a952c765][ExtensionHostConnection] <11078> Launched Extension Host Process.
+2024-12-16 13:37:48.423 [info] [127.0.0.6][9b8cd4b0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-16 13:37:48.424 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.425 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.426 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.426 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.426 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.426 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:48.426 [error] Error: Throttler is disposed
+    at c.queue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:13689)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:15275
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:67:14911
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2024-12-16 13:37:53.473 [info] [127.0.0.6][a952c765][ExtensionHostConnection] <11078> Extension Host Process exited with code: 0, signal: null.
+2024-12-16 13:42:59.095 [info] [127.0.0.6][5ef145f4][ManagementConnection] New connection established.
+2024-12-16 13:43:03.247 [info] [127.0.0.6][7011bd50][ExtensionHostConnection] New connection established.
+2024-12-16 13:43:03.260 [info] [127.0.0.6][7011bd50][ExtensionHostConnection] <15340> Launched Extension Host Process.

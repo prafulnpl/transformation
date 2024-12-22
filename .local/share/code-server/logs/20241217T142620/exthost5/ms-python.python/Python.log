@@ -1,0 +1,29 @@
+2024-12-17 14:35:50.903 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 14:35:50.903 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 14:35:50.903 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 14:35:50.903 [info] Test server listening.
+2024-12-17 14:35:50.904 [info] Python interpreter path: /opt/conda/bin/python
+2024-12-17 14:35:51.850 [info] > conda info --json
+2024-12-17 14:35:51.850 [info] shell: bash
+2024-12-17 14:35:52.698 [info] Starting Jedi language server for jovyan.
+2024-12-17 14:35:52.750 [info] > conda info --json
+2024-12-17 14:35:52.921 [info] > conda run -n base --no-capture-output python ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-17 14:35:52.921 [info] shell: bash
+2024-12-17 14:35:54.026 [info] > /bin/python3 ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/printEnvVariables.py
+2024-12-17 14:35:54.026 [info] shell: bash
+2024-12-17 14:37:23.415 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt-utils-1.0.0/pytest.ini
+2024-12-17 14:38:06.608 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt_utils/pytest.ini
+2024-12-17 14:40:37.060 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt_utils/pytest.ini
+2024-12-17 14:40:50.566 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/dbt_packages/dbt_utils/pytest.ini
+2024-12-17 14:55:27.632 [info] > conda info --json
+2024-12-17 14:55:27.639 [info] Found: /bin/python3 --> /bin/python3.10
+2024-12-17 14:55:27.639 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-12-17 14:55:27.644 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-12-17 14:55:27.644 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-12-17 14:55:27.648 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2024-12-17 14:55:27.648 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2024-12-17 14:55:27.648 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2024-12-17 14:55:27.648 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2024-12-17 14:55:27.676 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 14:55:27.705 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 14:55:28.459 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py

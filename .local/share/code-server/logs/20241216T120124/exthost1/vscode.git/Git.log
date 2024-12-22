@@ -1,0 +1,26 @@
+2024-12-16 12:01:37.103 [info] Log level: Info
+2024-12-16 12:01:37.103 [info] Validating found git in: "git"
+2024-12-16 12:01:37.103 [info] Using git "2.34.1" from "git"
+2024-12-16 12:01:37.103 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-16 12:01:37.103 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-16 12:01:37.103 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-16 12:01:37.103 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-16 12:01:37.103 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-16 12:01:37.103 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-16 12:01:37.103 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-16 12:01:37.103 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-16 12:01:37.103 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-16 12:01:37.103 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-16 12:05:45.236 [warning] Failed to get repository realpath for: "/home/jovyan/.local/share/code-server/extensions/.48a6d99e-789d-41c0-92b2-d5156fa9c84f/". Error: ENOENT: no such file or directory, realpath '/home/jovyan/.local/share/code-server/extensions/.48a6d99e-789d-41c0-92b2-d5156fa9c84f/'
+2024-12-16 12:05:45.246 [warning] Failed to get repository realpath for: "/home/jovyan/.local/share/code-server/extensions/.6a473255-5732-4de2-88f6-22e31748818e/". Error: ENOENT: no such file or directory, realpath '/home/jovyan/.local/share/code-server/extensions/.6a473255-5732-4de2-88f6-22e31748818e/'
+2024-12-16 12:05:50.019 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-16 12:05:50.019 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-12-16 12:05:50.553 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-16 12:05:50.553 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

@@ -1,0 +1,30 @@
+2024-12-19 06:12:00.463 [info] Log level: Info
+2024-12-19 06:12:00.463 [info] Validating found git in: "git"
+2024-12-19 06:12:00.463 [info] Using git "2.34.1" from "git"
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-12-19 06:12:00.463 [info] Open repository: /home/jovyan
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-19 06:12:00.463 [info] > git config --get commit.template [14ms]
+2024-12-19 06:12:00.463 [info] No remotes found in the git config file.
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [10ms]
+2024-12-19 06:12:00.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-19 06:12:00.463 [info] > git status -z -uall [55ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-19 06:12:00.463 [info] > git config --get commit.template [698ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [707ms]
+2024-12-19 06:12:00.463 [info] No remotes found in the git config file.
+2024-12-19 06:12:00.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [298ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [317ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-19 06:12:00.463 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-19 06:12:00.471 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-19 06:12:00.487 [info] > git status -z -uall [62ms]
+2024-12-19 06:12:00.487 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-19 06:12:01.603 [info] > git rev-parse --show-toplevel [954ms]
+2024-12-19 06:12:01.627 [info] > git check-ignore -v -z --stdin [6ms]
+2024-12-19 06:12:02.145 [info] > git check-ignore -v -z --stdin [1ms]

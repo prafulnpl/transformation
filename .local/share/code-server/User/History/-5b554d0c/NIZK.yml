@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: ranked_students
+    description: "A table of ranked students with enriched information from various related tables."
+    columns:
+      - name: studentid
+        description: "Unique identifier for each student."
+        tests:
+          - not_null
+          - unique
+      - name: fullname
+        description: "Full name of the student."
+      # Add descriptions and tests for other columns as needed
+      - name: organization
+        description: "Name of the organization, static value 'UNIGLOBE COLLEGE'."

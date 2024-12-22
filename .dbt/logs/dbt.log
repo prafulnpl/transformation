@@ -1,0 +1,110 @@
+[0m06:08:34.933628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b838a4c0810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b838a4e3950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b838a4e3490>]}
+
+
+============================== 06:08:34.937561 | 8cf95509-0da5-44ce-8765-ad6cf0345301 ==============================
+[0m06:08:34.937561 [info ] [MainThread]: Running with dbt=1.9.1
+[0m06:08:34.938312 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/jovyan/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m06:08:34.947486 [info ] [MainThread]: dbt version: 1.9.1
+[0m06:08:34.948035 [info ] [MainThread]: python version: 3.11.6
+[0m06:08:34.948479 [info ] [MainThread]: python path: /opt/conda/bin/python3.11
+[0m06:08:34.948921 [info ] [MainThread]: os info: Linux-6.8.0-1017-azure-x86_64-with-glibc2.35
+[0m06:08:35.013937 [info ] [MainThread]: Using profiles dir at /home/jovyan/.dbt
+[0m06:08:35.014669 [info ] [MainThread]: Using profiles.yml file at /home/jovyan/.dbt/profiles.yml
+[0m06:08:35.015124 [info ] [MainThread]: Using dbt_project.yml file at /home/jovyan/.dbt/dbt_project.yml
+[0m06:08:35.015526 [info ] [MainThread]: adapter type: trino
+[0m06:08:35.015940 [info ] [MainThread]: adapter version: 1.8.5
+[0m06:08:35.016355 [info ] [MainThread]: Configuration:
+[0m06:08:35.016772 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m06:08:35.017150 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m06:08:35.017516 [info ] [MainThread]: Required dependencies:
+[0m06:08:35.017952 [debug] [MainThread]: Executing "git --help"
+[0m06:08:35.020583 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:08:35.021160 [debug] [MainThread]: STDERR: "b''"
+[0m06:08:35.021558 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m06:08:35.021989 [info ] [MainThread]: Connection:
+[0m06:08:35.022403 [info ] [MainThread]:   host: 10.2.0.4
+[0m06:08:35.022814 [info ] [MainThread]:   port: 32750
+[0m06:08:35.023196 [info ] [MainThread]:   user: admin
+[0m06:08:35.023569 [info ] [MainThread]:   database: hive
+[0m06:08:35.023975 [info ] [MainThread]:   schema: default
+[0m06:08:35.024347 [info ] [MainThread]:   cert: None
+[0m06:08:35.024743 [info ] [MainThread]:   prepared_statements_enabled: True
+[0m06:08:35.025312 [info ] [MainThread]: Registered adapter: trino=1.8.5
+[0m06:08:35.096565 [debug] [MainThread]: Acquiring new trino connection 'debug'
+[0m06:08:35.132139 [debug] [MainThread]: Using trino connection "debug"
+[0m06:08:35.132984 [debug] [MainThread]: On debug: select 1 as id
+[0m06:08:35.133639 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:08:35.134141 [warn ] [MainThread]: [[33mWARNING[0m]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m06:08:35.134796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '8cf95509-0da5-44ce-8765-ad6cf0345301', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b8389fd8a90>]}
+[0m06:08:35.307728 [debug] [MainThread]: SQL status: SUCCESS in 0.174 seconds
+[0m06:08:35.309928 [debug] [MainThread]: On debug: Close
+[0m06:08:35.311005 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m06:08:35.311885 [info ] [MainThread]: [31m1 check failed:[0m
+[0m06:08:35.312588 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/jovyan/.dbt/dbt_project.yml> not found
+
+[0m06:08:35.314366 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.45339736, "process_in_blocks": "0", "process_kernel_time": 0.24875, "process_mem_max_rss": "97916", "process_out_blocks": "16", "process_user_time": 1.666329}
+[0m06:08:35.315492 [debug] [MainThread]: Command `dbt debug` failed at 06:08:35.315295 after 0.45 seconds
+[0m06:08:35.316364 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m06:08:35.317174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b838a38c9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b838a38c3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b838a29cc50>]}
+[0m06:08:35.318067 [debug] [MainThread]: Flushing usage events
+[0m06:08:35.383164 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:15:29.534049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e3114590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e3115510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e3114310>]}
+
+
+============================== 06:15:29.537801 | 3d6a973d-4b36-4e57-94fc-ff7279b5ee47 ==============================
+[0m06:15:29.537801 [info ] [MainThread]: Running with dbt=1.9.1
+[0m06:15:29.538542 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jovyan/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:15:29.548325 [info ] [MainThread]: dbt version: 1.9.1
+[0m06:15:29.548933 [info ] [MainThread]: python version: 3.11.6
+[0m06:15:29.549385 [info ] [MainThread]: python path: /opt/conda/bin/python3.11
+[0m06:15:29.549816 [info ] [MainThread]: os info: Linux-6.8.0-1017-azure-x86_64-with-glibc2.35
+[0m06:15:29.616807 [info ] [MainThread]: Using profiles dir at /home/jovyan/.dbt
+[0m06:15:29.617484 [info ] [MainThread]: Using profiles.yml file at /home/jovyan/.dbt/profiles.yml
+[0m06:15:29.617995 [info ] [MainThread]: Using dbt_project.yml file at /home/jovyan/.dbt/dbt_project.yml
+[0m06:15:29.618398 [info ] [MainThread]: adapter type: trino
+[0m06:15:29.618826 [info ] [MainThread]: adapter version: 1.8.5
+[0m06:15:29.619270 [info ] [MainThread]: Configuration:
+[0m06:15:29.619769 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m06:15:29.620225 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m06:15:29.620819 [info ] [MainThread]: Required dependencies:
+[0m06:15:29.621244 [debug] [MainThread]: Executing "git --help"
+[0m06:15:29.623769 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:15:29.624285 [debug] [MainThread]: STDERR: "b''"
+[0m06:15:29.624698 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m06:15:29.625109 [info ] [MainThread]: Connection:
+[0m06:15:29.625505 [info ] [MainThread]:   host: 10.2.0.4
+[0m06:15:29.625922 [info ] [MainThread]:   port: 32750
+[0m06:15:29.626322 [info ] [MainThread]:   user: admin
+[0m06:15:29.626731 [info ] [MainThread]:   database: hive
+[0m06:15:29.627110 [info ] [MainThread]:   schema: default
+[0m06:15:29.627471 [info ] [MainThread]:   cert: None
+[0m06:15:29.627870 [info ] [MainThread]:   prepared_statements_enabled: True
+[0m06:15:29.628415 [info ] [MainThread]: Registered adapter: trino=1.8.5
+[0m06:15:29.699384 [debug] [MainThread]: Acquiring new trino connection 'debug'
+[0m06:15:29.733098 [debug] [MainThread]: Using trino connection "debug"
+[0m06:15:29.733801 [debug] [MainThread]: On debug: select 1 as id
+[0m06:15:29.734305 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:15:29.734769 [warn ] [MainThread]: [[33mWARNING[0m]: SSL certificate validation is disabled by default. It is legacy behavior which will be changed in future releases. It is strongly advised to enable `require_certificate_validation` flag or explicitly set `cert` configuration to `True` for security reasons. You may receive an error after that if your SSL setup is incorrect.
+You may opt into the new behavior sooner by setting `flags.require_certificate_validation` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+[0m06:15:29.735523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'BehaviorChangeEvent', 'label': '3d6a973d-4b36-4e57-94fc-ff7279b5ee47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e30c6310>]}
+[0m06:15:29.808874 [debug] [MainThread]: SQL status: SUCCESS in 0.074 seconds
+[0m06:15:29.811013 [debug] [MainThread]: On debug: Close
+[0m06:15:29.812036 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m06:15:29.812837 [info ] [MainThread]: [31m1 check failed:[0m
+[0m06:15:29.813525 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/jovyan/.dbt/dbt_project.yml> not found
+
+[0m06:15:29.815256 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.33778048, "process_in_blocks": "0", "process_kernel_time": 0.269971, "process_mem_max_rss": "97496", "process_out_blocks": "24", "process_user_time": 1.554081}
+[0m06:15:29.816319 [debug] [MainThread]: Command `dbt debug` failed at 06:15:29.816133 after 0.34 seconds
+[0m06:15:29.817095 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m06:15:29.817597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e32b96d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e3117810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7644e3115810>]}
+[0m06:15:29.818341 [debug] [MainThread]: Flushing usage events
+[0m06:15:29.904267 [debug] [MainThread]: An error was encountered while trying to flush usage events

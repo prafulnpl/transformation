@@ -1,0 +1,1 @@
+SELECT * FROM {{ json_parser({source('bronze_raw', 'airbyte_raw_studentmain')) }}

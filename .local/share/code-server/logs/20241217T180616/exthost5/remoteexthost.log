@@ -1,0 +1,5 @@
+2024-12-18 05:20:07.449 [info] Extension host with pid 50790 started
+2024-12-18 05:20:07.457 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-b0fa7f7/vscode.lock': Lock acquired.
+2024-12-18 05:25:20.205 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-12-18 05:25:20.206 [info] Lock '/home/jovyan/.local/share/code-server/User/workspaceStorage/-b0fa7f7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-12-18 05:25:20.212 [info] Extension host with pid 50790 exiting with code 0

@@ -1,0 +1,48 @@
+code-server (1.82.2, dlytica-academy-work-vm.eastus.cloudapp.azure.com:31997, server-distro)
+Jupyter Extension Version: 2023.7.100.
+Python Extension Version: 2023.18.0.
+Platform: linux (x64).
+Workspace folder /home/jovyan, Home = /home/jovyan
+16:29:35.494 [info] User belongs to experiment group 'NewJupyterSession'
+16:29:36.002 [info] Start refreshing Interpreter Kernel Picker (1734452976002)
+16:29:36.008 [info] Using Pylance
+16:29:40.136 [warn] Failed to get activated env vars for /bin/python3 in 1063ms
+16:29:40.182 [info] Process Execution: /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+16:29:40.217 [info] Process Execution: /bin/python3 -m pip list
+16:29:40.257 [info] Process Execution: /bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:29:41.562 [info] End refreshing Interpreter Kernel Picker (1734452976002)
+16:34:38.580 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher  (Python Path: /usr/bin/python3, Unknown, 3.10.12) for '~/test.ipynb' (disableUI=true)
+16:34:39.125 [warn] Failed to get activated env vars for /usr/bin/python3 in 548ms
+16:34:39.144 [info] Process Execution: /usr/bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+16:34:39.147 [warn] Failed to get activated env vars for /usr/bin/python3 in 563ms
+16:34:39.172 [info] Process Execution: /usr/bin/python3 -m pip list
+16:34:39.185 [info] Process Execution: /usr/bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:34:39.200 [info] Process Execution: /usr/bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"3a0a4a3c-f10a-4b55-9902-f017daac5bab" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-30933qHbZ1p5LkbOF.json
+    > cwd: ~
+16:34:39.215 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /usr/bin/python3
+16:34:39.228 [info] Process Execution: /usr/bin/python3 -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+16:34:39.229 [warn] StdErr from Kernel Process /usr/bin/python3: No module named ipykernel_launcher
+16:34:39.231 [error] Disposing kernel process due to an error Error: The kernel died. Error: /usr/bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher
+    > Interpreter Id = /usr/bin/python3
+    > at ChildProcess.<anonymous> (~/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:24:91039)
+    > stdErr = /usr/bin/python3: No module named ipykernel_launcher
+16:34:39.231 [info] Dispose Kernel process 32254.
+16:34:39.235 [error] Kernel Launcher. launch, Class name = Ky, completed in 650ms, has a falsy return value, Arg 1: ".jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/test.ipynb", Arg 4: "~", Arg 5: "" Error: The kernel died. Error: /usr/bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher
+    > Interpreter Id = /usr/bin/python3
+    > at ChildProcess.<anonymous> (~/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:24:91039)
+    > stdErr = /usr/bin/python3: No module named ipykernel_launcher
+16:34:39.235 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /usr/bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+16:34:39.236 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: /usr/bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher
+    > Interpreter Id = /usr/bin/python3
+    > at ChildProcess.<anonymous> (~/.local/share/code-server/extensions/ms-toolsai.jupyter-2023.7.100-universal/out/extension.node.js:24:91039)
+    > stdErr = /usr/bin/python3: No module named ipykernel_launcher
+16:34:46.170 [info] Dispose Kernel '~/test.ipynb' associated with '~/test.ipynb'
+16:53:20.953 [info] Disposing HostJupyterExecution
+16:53:20.953 [info] Shutting down notebooks for ed5b8edd-d410-4f70-8bb5-3f6f9d4448e6
+16:53:20.953 [info] Dispose Kernel '~/test.ipynb' associated with '~/test.ipynb'
+16:53:20.954 [info] Disposing HostJupyterExecution

@@ -1,0 +1,7 @@
+2024-12-18 05:21:20.895 [info] discoverProjects:foundProjects [[{"$mid":1,"fsPath":"/opt/conda/lib/python3.11/site-packages/dbt/include/trino/dbt_project.yml","path":"/opt/conda/lib/python3.11/site-packages/dbt/include/trino/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/opt/conda/lib/python3.11/site-packages/dbt/include/starter_project/dbt_project.yml","path":"/opt/conda/lib/python3.11/site-packages/dbt/include/starter_project/dbt_project.yml","scheme":"file"},{"$mid":1,"fsPath":"/opt/conda/lib/python3.11/site-packages/dbt/include/global_project/dbt_project.yml","path":"/opt/conda/lib/python3.11/site-packages/dbt/include/global_project/dbt_project.yml","scheme":"file"}]]
+2024-12-18 05:21:20.896 [info] discoverProjects:allowListFolders [[]]
+2024-12-18 05:21:20.896 [info] discoverProjects:foundProjectInVenv ["/opt/conda/lib/python3.11/site-packages/dbt/include/trino/dbt_project.yml"]
+2024-12-18 05:21:20.896 [info] discoverProjects:foundProjectInVenv ["/opt/conda/lib/python3.11/site-packages/dbt/include/starter_project/dbt_project.yml"]
+2024-12-18 05:21:20.896 [info] discoverProjects:foundProjectInVenv ["/opt/conda/lib/python3.11/site-packages/dbt/include/global_project/dbt_project.yml"]
+2024-12-18 05:21:20.896 [info] discoverProjects:foundProjectsAfterFilter [[]]
+2024-12-18 05:21:20.944 [info] discoverProjects:foundProjectsAfterProjectIntegrationFilter [[]]

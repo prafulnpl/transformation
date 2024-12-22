@@ -1,0 +1,36 @@
+2024-12-17 16:29:39.060 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 16:29:39.060 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 16:29:39.060 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 16:29:39.063 [info] Test server listening.
+2024-12-17 16:29:39.097 [info] > conda info --json
+2024-12-17 16:29:39.099 [info] Python interpreter path: /bin/python3
+2024-12-17 16:29:39.112 [info] Found: /bin/python3 --> /bin/python3.10
+2024-12-17 16:29:39.112 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-12-17 16:29:39.121 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-12-17 16:29:39.122 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-12-17 16:29:39.127 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.11
+2024-12-17 16:29:39.127 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.11
+2024-12-17 16:29:39.127 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.11
+2024-12-17 16:29:39.128 [info] Found: /opt/conda/bin/python3.11 --> /opt/conda/bin/python3.11
+2024-12-17 16:29:39.193 [info] > /bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 16:29:39.221 [info] > /usr/bin/python3 -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 16:29:40.160 [info] > /opt/conda/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2023.18.0-universal/pythonFiles/interpreterInfo.py
+2024-12-17 16:29:41.399 [info] Starting Jedi language server for jovyan.
+2024-12-17 16:41:15.688 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:43:12.512 [info] Send text to terminal: /bin/python3 /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:46:55.582 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:46:56.564 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:47:57.485 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:47:58.919 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:48:02.064 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:48:03.766 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:48:38.732 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:50:55.772 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:50:57.778 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:52:23.060 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:52:24.687 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:52:30.335 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:52:37.552 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:52:50.961 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:52:55.692 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py
+2024-12-17 16:53:20.780 [info] Discover tests for workspace name: jovyan - uri: /home/jovyan/Internal/models/silver/gen.py

@@ -1,0 +1,1 @@
+{{ flatten_json('bronze_raw.airbyte_raw_studentmain', '_airbyte_data', 'st_') }}

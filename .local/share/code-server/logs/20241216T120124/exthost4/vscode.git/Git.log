@@ -1,0 +1,19 @@
+2024-12-16 13:43:07.684 [info] Log level: Info
+2024-12-16 13:43:07.684 [info] Validating found git in: "git"
+2024-12-16 13:43:07.684 [info] Using git "2.34.1" from "git"
+2024-12-16 13:43:07.684 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-16 13:43:07.684 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-16 13:43:07.684 [info] Open repository: /home/jovyan
+2024-12-16 13:43:07.684 [info] > git rev-parse --show-toplevel [7ms]
+2024-12-16 13:43:07.684 [info] > git config --get commit.template [17ms]
+2024-12-16 13:43:07.684 [info] No remotes found in the git config file.
+2024-12-16 13:43:07.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [280ms]
+2024-12-16 13:43:07.684 [info] > git rev-parse --show-toplevel [300ms]
+2024-12-16 13:43:07.684 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-16 13:43:07.684 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-16 13:43:07.684 [info] > git status -z -uall [29ms]
+2024-12-16 13:43:07.684 [info] > git config --get commit.template [41ms]
+2024-12-16 13:43:07.684 [info] No remotes found in the git config file.
+2024-12-16 13:43:07.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-16 13:43:07.723 [info] > git status -z -uall [26ms]
+2024-12-16 13:43:09.187 [info] > git check-ignore -v -z --stdin [13ms]
