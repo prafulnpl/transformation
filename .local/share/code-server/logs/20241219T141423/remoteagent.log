@@ -984,3 +984,8 @@ workspacePath:/home/jovyan []
 2024-12-22 10:09:40.857 [info] [127.0.0.6][8551af3b][ExtensionHostConnection] <114> /home/jovyan/Internal/macros/flatten_json_trino.sql []
 /home/jovyan/Internal []
 
+2024-12-22 10:12:26.644 [info] [127.0.0.6][8551af3b][ExtensionHostConnection] <114> checking: json_column []
+
+2024-12-22 10:12:26.644 [info] [127.0.0.6][8551af3b][ExtensionHostConnection] <114> /home/jovyan/Internal/macros/flatten_json_trino.sql []
+/home/jovyan/Internal []
+
